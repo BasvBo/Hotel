@@ -8,6 +8,12 @@ public class Reservation {
     private int numPersons;
     private Guest guest;
 
- //   public void cancel(String reason){ }
+    public Reservation(LocalDateTime reservationTime, int numPersons, Guest guest) {
+        this.reservationTime = reservationTime;
+        this.numPersons = numPersons;
+        this.guest = guest;
+    }
+
+    //   public void cancel(String reason){ }
 
 }
